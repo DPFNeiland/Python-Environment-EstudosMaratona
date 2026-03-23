@@ -1,33 +1,27 @@
 
 
 n = int(input())
+primeiro = True
 
 while n != 0:
     strings = []
     width = -1
     
-    for _ in range(n):
+    for _ in range(n):  
         aux = str(input())
-        
-        newAux = ""
-        for i in range(len(aux) - 1):
-            if not (aux[i] == " " and aux[i+1] == " "):
-                newAux += aux[i]
-        newAux += aux[i + 1]
-        
-        
-        newAux = newAux.removeprefix(" ")
-        newAux = newAux.removesuffix(" ")
-        
-        if width < len(newAux):
-            width = len(newAux)
-        
-        strings.append(newAux)
-    
+
+        aux = " ".join(aux.split())
+        strings.append(aux)
+
+        if len(aux) > width:
+            width = len(aux)
+
+    if not primeiro:
+        print()
+    primeiro = False
+
     for i in range(n):
         print(f"{strings[i]:>{width}}")
-    
-    
-    
+
     n = int(input())
     
