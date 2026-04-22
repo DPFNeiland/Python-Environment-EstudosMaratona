@@ -1,17 +1,22 @@
-from math import pow
-
 def fib(n, m):
-    
-    inicial = [
-                [1,1],
-                [1,0]
-            ]
-    
-    for i in range(n):
-        inicial[0]                
-    
-    return inicial[0][1]
+    if n == 0:
+        return (0, 1)
+
+    a, b = fib(n // 2, m)
+
+    c = (a * ((2 * b - a) % m)) % m
+    d = (a * a + b * b) % m
+
+    if n % 2 == 0:
+        return (c, d)
+    else:
+        return (d, (c + d) % m)
     
 while True:
-    n, m  = map(int, (input().split()))
-    print(fib(fib(n, m),m))
+    
+    try:
+        n, m  = map(int, (input().split()))
+        print(fib(fib(n, m)[0],m)[0])
+    except EOFError:
+        break
+    
