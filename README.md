@@ -1,58 +1,58 @@
-# Python Environment - Estudos e Maratona de Programacao
+# Python Environment - Estudos e Maratona de programação
 
-> Repositorio dedicado a estudos de algoritmos, estruturas de dados e resolucao de problemas de programacao competitiva em Python.
+> repositório dedicado a estudos de algoritmos, estruturas de dados e resolução de problemas de programação competitiva em Python.
 
-Este projeto concentra exercicios, implementacoes de algoritmos classicos e solucoes de plataformas e competicoes de programacao. O objetivo e reunir, em um unico ambiente, materiais de pratica para reforco de logica, tecnicas de resolucao de problemas e preparo para desafios academicos e competitivos.
+Este projeto concentra exercícios, implementações de algoritmos classícos e soluções de plataformas e competições de programaçãoo. O objetivo é reunir, em um único ambiente, materiais de prática para reforco de lógica, técnicas de resolução de problemas e preparo para desafios acadêmicos e competitivos.
 
 ---
 
 ## Sobre o projeto
 
-O repositorio foi organizado para servir como base de estudo continuo em Python, com foco em:
+O repositório foi organizado para servir como base de estudo contínuo em Python, com foco em:
 
-- pratica de algoritmos fundamentais;
-- estudo de estruturas de dados e tecnicas classicas;
-- resolucao de problemas de plataformas online;
+- prática de algoritmos fundamentais;
+- estudo de estruturas de dados e técnicas classicas;
+- resolução de problemas de plataformas online;
 - treino para competicoes como OBI, Maratona SBC e contests similares.
 
-Os arquivos sao, em sua maioria, independentes entre si. Cada script representa uma resolucao especifica, experimento de estudo ou implementacao pontual de algum conceito importante para programacao competitiva.
+Os arquivos são, em sua maioria, independentes entre si. Cada script representa uma resolução especifica, experimento de estudo ou implementação pontual de algum conceito importante para programação competitiva.
 
 ---
 
-## Estrutura do repositorio
+## Estrutura do repositório
 
 ```text
 .
 |- Algoritmos/
-|  |- Cap02/                 # exercicios e implementacoes introdutorias
-|  `- Eficiência/            # analise e pratica de eficiencia
+|  |- Cap02/                 # exercícios e implementações introdutórias
+|  `- Eficiência/            # análise e prática de eficiencia
 |- Estudos/
-|  |- BinarySearch/
-|  |- BitManipulation/
-|  |- DataStructures/
-|  |- Dinamic/
-|  |- DivisibilityRule/
-|  |- Graphs/
-|  |- greedy/ e guloso/
-|  |- MaximumSubArraySum/
-|  `- SortingAlgorithms/
+|  |- BinarySearch/          # entendimento e códigos de busca binária
+|  |- BitManipulation/       # entendimento e códigos de manipulação de bits
+|  |- DataStructures/        # entendimento e códigos de estruturas de dados
+|  |- Dinamic/               # entendimento e códigos de programação dinâmica
+|  |- DivisibilityRule/      # entendimento e códigos de regras de divisibilidade
+|  |- Graphs/                # entendimento e códigos de grafos
+|  |- greedy/ e guloso/      # entendimento e códigos de algoritmos gulosos 
+|  |- MaximumSubArraySum/    # entendimento e códigos de máxima soma de um subarray
+|  `- SortingAlgorithms/     # entendimento e códigos de algoritmos de ordenação
 |- Problems/
-|  |- atcoder/
-|  |- BeeCrowd/
-|  |- Codeforces/
-|  `- NepsAcademy/
+|  |- atcoder/               # resolução de problemas do site atcoder
+|  |- BeeCrowd/              # resolução de problemas do site beecrowd
+|  |- Codeforces/            # resolução de problemas do site CodeForces
+|  `- NepsAcademy/           # resolução de problemas do site NepsAcademy
 `- Competições/
-   |- Maratona/
-   |- MPaulista/
-   `- OBI/
+   |- Maratona/              # resolução de problemas da Maratona de Programação
+   |- MPaulista/             # resolução de problemas da Maratona Paulista de Programação
+   `- OBI/                   # resolução de problemas da Olimpíada Brasileira de Programação
 ```
 
-### Organizacao por pastas
+### Organização por pastas
 
-- `Algoritmos`: implementacoes e exercicios voltados a fundamentos teoricos.
-- `Estudos`: codigos de apoio para aprendizado de tecnicas como busca binaria, programacao dinamica, bit manipulation, ordenacao e estruturas de dados.
-- `Problems`: solucoes de problemas resolvidos em plataformas online.
-- `Competicoes`: resolucoes organizadas por competicao, ano e fase, incluindo algumas provas em PDF para consulta.
+- `Algoritmos`: implementações e exercícios voltados a fundamentos teóricos.
+- `Estudos`: códigos de apoio para aprendizado de técnicas como busca binaria, programação dinamica, bit manipulation, ordenação e estruturas de dados.
+- `Problems`: soluções de problemas resolvidos em plataformas online.
+- `Competicoes`: resoluções organizadas por competição, ano e fase, incluindo algumas provas em PDF para consulta.
 
 ---
 
@@ -61,15 +61,13 @@ Os arquivos sao, em sua maioria, independentes entre si. Cada script representa 
 | Item | Descricao |
 |------|-----------|
 | Linguagem | Python |
-| Paradigma predominante | Scripts independentes para estudo e resolucao de problemas |
-| Dependencias externas | Nao identificadas; os arquivos utilizam recursos nativos do Python |
-| Licenca | MIT |
+| Paradigma predominante | Scripts independentes para estudo e resolução de problemas |
 
 ---
 
 ## Como executar
 
-Como os arquivos sao independentes, basta executar o script desejado diretamente pelo terminal:
+Como os arquivos são independentes, basta executar o script desejado diretamente pelo terminal:
 
 ```bash
 python "Estudos/SortingAlgorithms/QuickSort.py"
@@ -81,26 +79,26 @@ Ou, por exemplo, para uma solucao de problema:
 python "Problems/BeeCrowd/bee1021.py"
 ```
 
-Em geral, os scripts de problemas leem dados da entrada padrao, seguindo o formato exigido pela plataforma ou competicao correspondente.
+Em geral, os scripts de problemas leem dados da entrada padrão, seguindo o formato exigido pela plataforma ou competição correspondente.
 
 ---
 
 ## Objetivos de aprendizagem
 
-Este repositorio apoia a pratica de:
+Este repositório apoia a pratica de:
 
-- logica de programacao;
-- analise de complexidade;
-- implementacao de algoritmos classicos;
-- resolucao de problemas sob restricao de tempo;
-- organizacao de estudos para maratonas e olimpadas de programacao.
+- lógica de programação;
+- análise de complexidade;
+- implementação de algoritmos clássicos;
+- resolução de problemas sob restrição de tempo;
+- Organização de estudos para maratonas e olimpadas de programação.
 
 ---
 
 ## Observacoes
 
-- Alguns nomes de pastas e arquivos refletem a organizacao original dos estudos e das competicoes.
-- Existem arquivos voltados tanto para experimentacao quanto para submissao direta em juizes online.
+- Alguns nomes de pastas e arquivos refletem a organização original dos estudos e das competições.
+- Existem arquivos voltados tanto para experimentação quanto para submissão direta em juizes online.
 - Algumas pastas tambem armazenam enunciados em PDF para referencia.
 
 ---
@@ -108,9 +106,3 @@ Este repositorio apoia a pratica de:
 ## Autor
 
 - Rodrigo Neiland
-
----
-
-## Licenca
-
-Este projeto esta licenciado sob a licenca MIT. Consulte o arquivo [LICENSE](LICENSE) para mais detalhes.
