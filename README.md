@@ -95,7 +95,7 @@ Este repositório apoia a pratica de:
 
 ---
 
-## Observacoes
+## Observações
 
 - Alguns nomes de pastas e arquivos refletem a organização original dos estudos e das competições.
 - Existem arquivos voltados tanto para experimentação quanto para submissão direta em juizes online.
