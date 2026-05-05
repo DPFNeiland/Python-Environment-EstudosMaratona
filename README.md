@@ -1,4 +1,4 @@
-# Python Environment - Estudos e Maratona de programação
+# Python Competitive Grind - Estudos e Maratona de programação
 
 > repositório dedicado a estudos de algoritmos, estruturas de dados e resolução de problemas de programação competitiva em Python.
 
